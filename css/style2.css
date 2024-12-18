@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+@font-face {
+    font-family: Rubik-Medium;
+    src: url(../fonts/Rubik/Rubik-Medium.ttf);
+}
+@font-face {
+    font-family: Rubik-Regular;
+    src: url(../fonts/Rubik/Rubik-Regular.ttf);
+}
+
+
+.container {
+    position: relative;
+    width: 300px;
+    height: 400px;
+    margin: 0 auto;
+    border: none;
+    border-radius: 5px;
+    top: 100px;
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+.hdr {
+    font-size: 28px;
+    font-family: Rubik-Medium;
+    color: #333333;
+    margin: 36px 117px 0px 117px;
+    
+}
+.form_login{
+    border: none;
+    font-size: 16px;
+    font-family: Rubik-Regular;
+    color: #828282;
+    border-bottom: solid 1px #333333;
+    margin: 24px 36px 0px 36px;
+
+}
+.checkin {
+    margin: 23px 160px 111px 36px;
+    font-size: 16px;
+    font-family: Rubik-Regular;
+    color: #333333;
+}
+.label {
+    margin-left: 8px;
+}
+.footer_login_btn {
+    background-color: #E5261E;
+    border: none;
+    width: 100px;
+    height: 30px;
+    border-radius: 4px;
+    color: white;
+    font-family: Rubik-Medium;
+    font-size: 16 px;
+    margin: 0px 95px 36px 96px;
+    position: relative;
+    left: 5px;
+    bottom: 40px;
+}
+.footer_login_btn:hover {
+    background: #E5261E;
+}
+
+.main_block {
+    position: relative;
+    top: 30px;
+}
